@@ -63,7 +63,10 @@ h3{
 
 .video-index{
     width: 50%;
+    height: 120px;
+    margin-bottom: 5vh;
 }
+
 
 /* footer-smartphone */
 
@@ -187,6 +190,9 @@ padding: 1vw;
 .gridcontacto{
     margin-bottom: 5vh
 }
+.video-index{
+    height: 210px;
+}
 }
 
 /* FORMULAS PARA 1024 */
@@ -271,5 +277,8 @@ margin: 35px;
     grid-column-start: 3;
     grid-column-end: 4;
     -ms-grid-column-align: end;
+}
+.video-index{
+    height: 320px;
 }
 }
