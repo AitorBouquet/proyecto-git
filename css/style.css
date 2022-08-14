@@ -16,7 +16,7 @@ a{
 .header__title{
     text-align: center;
     font-family: 'Bree Serif', serif;
-    color: rgb(38, 37, 39);
+    color: rgb(23, 22, 24);
     font-size: xx-large;
 }
 .header__navbar ul{
@@ -34,7 +34,7 @@ header nav ul li{
 body{
     text-align: center;
     justify-content: center;
-    background: linear-gradient(to top, rgb(44, 42, 42), rgb(151, 139, 139));
+    background: linear-gradient(to top, rgb(36, 34, 34), rgb(151, 139, 139));
 }
 h2{
     font-size: larger;
@@ -47,7 +47,7 @@ h2{
 h3{
     text-align: center;
     font-size: 1rem;
-    padding: 0.8rem;
+    padding: 1.4rem;
     font-family: 'monserrat', serif;
     color: azure;
 }
@@ -84,6 +84,92 @@ footer h4{
 footer ul li{
     display: inline-block;
     justify-content: space-between;
+}
+
+.instagram{
+    animation-name: color-instagram;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+@keyframes color-instagram{
+    0% {
+        color: aliceblue;
+    }
+    50%{
+        color: salmon;
+    }
+    100%{
+        color: aliceblue;
+    }
+}
+.facebook{
+    animation-name: color-facebook;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-delay: 1s;
+}
+@keyframes color-facebook{
+    0%{
+        color: aliceblue;
+    }
+    50%{
+        color: blue;
+    }
+    100%{
+        color: aliceblue;
+    }
+}
+.spotify{
+    animation-name: color-spotify;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-delay: 2s;
+}
+@keyframes color-spotify{
+    0%{
+        color: aliceblue;
+    }
+    50%{
+        color: darkgreen;
+    }
+    100%{
+        color: aliceblue;
+    }
+}
+
+.youtube{
+    animation-name: color-youtube;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-delay: 3s;
+}
+@keyframes color-youtube{
+    0%{
+        color: aliceblue;
+    }
+    50%{
+        color: firebrick;
+    }
+    100%{
+        color: aliceblue;
+    }
+}
+.twitter{
+    animation-name: color-twitter;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-delay: 4s;
+}
+@keyframes color-twitter{
+    0%{
+        color: aliceblue;
+    }
+    50%{
+        color:rgb(5, 119, 119);
+    }
+    100%{
+        color: aliceblue;
+    }
 }
 
 /*                Banda                 */
@@ -136,6 +222,7 @@ margin-top: 40px;
 }
 .misemilla{
     padding: 4vh;
+    color: aliceblue;
 }
 
 /* FORMULAS PARA TABLET */
@@ -223,6 +310,7 @@ ol li{
 }
 ul i{
     font-size: 1.8rem;
+    width: 10vw;
     }
 .discos{
     display: flex;
