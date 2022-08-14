@@ -34,7 +34,7 @@ header nav ul li{
 body{
     text-align: center;
     justify-content: center;
-    background-color: rgb(122, 116, 96);
+    background: linear-gradient(to top, rgb(44, 42, 42), rgb(151, 139, 139));
 }
 h2{
     font-size: larger;
