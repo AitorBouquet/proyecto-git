@@ -36,6 +36,7 @@ a{
     text-align: center;
     display: flex;
     justify-content: space-around; 
+    overflow-x: scroll;
 }
 header nav ul li{
     font-family: 'monserrat', serif;
@@ -391,5 +392,5 @@ margin: 35px;
 }
 .video-index{
     height: 300px;
-}
-}
+} 
+} 
