@@ -11,21 +11,32 @@ body{
 a{
     text-decoration: none;
     color: white;
+    font-weight: bold;
+    font-family: 'monserrat', serif;
 }
 a:hover{
-    color: black;
+    color: rgb(167, 12, 12);
 }
 ul{
     list-style: none;
 }
 .foto-index{
-    width: 50%;
+    width: 70%;
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+}
+.video-index{
+width: 50%;
+}
+p{
+    font-size: 1rem;
+    font-family: 'monserrat', serif;
 }
 .header__title{
     font-family: 'Bree Serif', serif;
     color: rgb(23, 22, 24);
-    font-size: 2rem;  
-    padding-top: 2vh;
+    font-size: 3rem;
+    font-family: 'Bree Serif', serif;
     }
 .animation-h1{
         animation-name: aparece-h1;
@@ -39,19 +50,24 @@ ul{
     transform: scale(1);
 }
 }
-hr{
-    border: 3px;
-    border-color: white;
-    color: white;
+footer li{
+    font-size: 1.1rem;
 }
 h2{
     color: white;
+    font-size: 2.2rem;
+    font-family: 'Bree Serif', serif;
 }
 h3{
-    margin-top: 2vh;
+    margin-top: 3vh;
+    color: black;
+    font-size: 1.8rem;
+    font-weight: bold;
+    font-family: 'monserrat', serif;
 }
 h4{
     color: white;
+    font-family: 'monserrat', serif;
 }
 .instagram{
     animation-name: color-instagram;
@@ -103,7 +119,6 @@ h4{
         color: aliceblue;
     }
 }
-
 .youtube{
     animation-name: color-youtube;
     animation-duration: 5s;
@@ -138,6 +153,29 @@ h4{
         color: aliceblue;
     }
 }
-footer{
-    padding: 0;
+@media(min-width:768px){
+p{
+    font-size: 1.2rem;
+}
+.foto-index{
+    width: 50%;
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+@media(min-width:1200px){
+p{
+    font-size: 1.3;
+}
 }
