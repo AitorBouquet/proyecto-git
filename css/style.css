@@ -56,6 +56,10 @@ h2{
     font-family: 'Bree Serif', serif;
     padding: 5vh;
 }
+hr{
+    color: rgb(255, 255, 255);
+    border: solid 3px rgb(255, 255, 255);
+}
 h3{
     text-align: center;
     font-size: 1rem;
@@ -72,11 +76,8 @@ h3{
 .foto-index{
     width: 50%;
 }
-
 .video-index{
-    width: 50%;
-    height: 120px;
-    margin-bottom: 5vh;
+    height: 100px;
 }
 
 
@@ -236,6 +237,10 @@ margin-top: 40px;
     padding: 4vh;
     color: aliceblue;
 }
+input:focus{
+    border: 3px;
+    border-color: black;
+}
 
 /* FORMULAS PARA TABLET */
 
@@ -290,7 +295,7 @@ padding: 1vw;
     margin-bottom: 5vh
 }
 .video-index{
-    height: 210px;
+    height: 200px;
 }
 }
 
@@ -385,6 +390,6 @@ margin: 35px;
     -ms-grid-column-align: end;
 }
 .video-index{
-    height: 320px;
+    height: 300px;
 }
 }
