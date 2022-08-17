@@ -1,0 +1,143 @@
+*{padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+body{
+    background: linear-gradient(180deg, rgba(73,80,83,1) 25%, rgba(203,203,227,1) 70%, rgba(32,32,34,1) 100%);
+}
+.foto-header{
+    width: 100%;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+a:hover{
+    color: black;
+}
+ul{
+    list-style: none;
+}
+.foto-index{
+    width: 50%;
+}
+.header__title{
+    font-family: 'Bree Serif', serif;
+    color: rgb(23, 22, 24);
+    font-size: 2rem;  
+    padding-top: 2vh;
+    }
+.animation-h1{
+        animation-name: aparece-h1;
+        animation-duration: 3s;
+    }
+@keyframes aparece-h1{
+0%{
+    transform: scale(0);
+}
+100%{
+    transform: scale(1);
+}
+}
+hr{
+    border: 3px;
+    border-color: white;
+    color: white;
+}
+h2{
+    color: white;
+}
+h3{
+    margin-top: 2vh;
+}
+h4{
+    color: white;
+}
+.instagram{
+    animation-name: color-instagram;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+@keyframes color-instagram{
+    0% {
+        color: aliceblue;
+    }
+    50%{
+        color: salmon;
+    }
+    100%{
+        color: aliceblue;
+    }
+}
+.facebook{
+    animation-name: color-facebook;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-delay: 1s;
+}
+@keyframes color-facebook{
+    0%{
+        color: aliceblue;
+    }
+    50%{
+        color: rgb(60, 60, 206);
+    }
+    100%{
+        color: aliceblue;
+    }
+}
+.spotify{
+    animation-name: color-spotify;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-delay: 2s;
+}
+@keyframes color-spotify{
+    0%{
+        color: aliceblue;
+    }
+    50%{
+        color: darkgreen;
+    }
+    100%{
+        color: aliceblue;
+    }
+}
+
+.youtube{
+    animation-name: color-youtube;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-delay: 3s;
+}
+@keyframes color-youtube{
+    0%{
+        color: aliceblue;
+    }
+    50%{
+        color: firebrick;
+    }
+    100%{
+        color: aliceblue;
+    }
+}
+.twitter{
+    animation-name: color-twitter;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-delay: 4s;
+}
+@keyframes color-twitter{
+    0%{
+        color: aliceblue;
+    }
+    50%{
+        color:rgb(24, 182, 182);
+    }
+    100%{
+        color: aliceblue;
+    }
+}
+footer{
+    padding: 0;
+}

@@ -15,12 +15,11 @@
 <body>
     <header>
         <img src="./image/foto-header.png" alt="Foto de la banda" class="foto-header">
-
-        <h1 class="container-fluid header__title  animation-h1">La Vela Puerca</h1>
+        <h1 class="container-fluid header__title text-center animation-h1">La Vela Puerca</h1>
         <hr>
-        <div class="container-fluid">
+        <div class="container-fluid text-bg-dark p-3">
             <nav class="row">
-                <ul class="col-12 d-flex justify-content-around">
+                <ul class="col-12 col-sm-8 offset-sm-2 col-lg-6 offset-lg-3 d-flex justify-content-around">
                     <li> <a href="./index.html"> Inicio</a></li>
                     <li> <a href="./pages/banda.html"> Banda</a></li>
                     <li> <a href="./pages/discos.html">Discos</a> </li>
@@ -31,41 +30,41 @@
         </div>
         <hr>
     </header>
-
-
-    <section>
-        <h2>Novedades</h2>
-
-        <article>
-            <h3>Enterate de los nuevos conciertos en la gira 2022</h3>
+    <h2 class="d-flex justify-content-center">Novedades</h2>
+    <section class="container-fluid d-inline-block text-center">
+        <div class="row">
+            <article class="col-12">
+                <h3>Enterate de los nuevos conciertos en la gira 2022</h3>
                 <img src="./image/show-1807.jpg" alt="Sebastian Teyseira" class="foto-index">
-        </article>
-
-        <article>
-            <h3>Se prepara el lanzamiento de Discopático en Julio</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro, atque ratione. Iusto facere, alias soluta blanditiis harum minus possimus officiis!</p>
+            </article>
+            <article>
+                <h3>Se prepara el lanzamiento de Discopático en Julio</h3>
                 <img src="./image/discopatico.png" alt="Portada album discopático" class="foto-index">
-            
-
-        </article>
-        <article>
-            <h3>Escuchá el ultimo lanzamiento</h3>
-            <iframe width="50%" src="https://www.youtube.com/embed/WPkZ2ZkjQao" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen class="video-index"></iframe>
-        </article>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Blanditiis vel laborum quidem ducimus adipisci molestias illum quasi tempore veritatis eaque! Deserunt vero id, temporibus hic autem dolorum aliquam molestiae labore?</p>
+            </article>
+            <article>
+                <h3>Escuchá el ultimo lanzamiento</h3>
+                <iframe width="50%" src="https://www.youtube.com/embed/WPkZ2ZkjQao" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen class="video-index"></iframe>
+            </article>
+        </div>
     </section>
     
 
 
-    <footer>
+    <footer class="p-3 mb-2 bg-dark text-white">
+        <section class="container-fluid text-center">
         <h4>Seguinos en:</h4>
-        <div>
-            <ul class="ul i">
-                <li class="instagram"> <i class="bi-instagram"></i> </li>
-                <li class="facebook"> <i class="bi-facebook"></i> </li>
-                <li class="spotify"> <i class="bi-spotify"></i> </li>
-                <li class="youtube"> <i class="bi-youtube"></i> </li>
-                <li class="twitter"> <i class="bi-twitter"></i> </li>
-            </ul>
-        </div>
+            <div class="row">
+                <ul class="d-flex justify-content-around">
+                    <li class="instagram"> <i class="bi-instagram"></i> </li>
+                    <li class="facebook"> <i class="bi-facebook"></i> </li>
+                    <li class="spotify"> <i class="bi-spotify"></i> </li>
+                    <li class="youtube"> <i class="bi-youtube"></i> </li>
+                    <li class="twitter"> <i class="bi-twitter"></i> </li>
+                </ul>
+            </div>
+        </section>
     </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
