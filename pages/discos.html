@@ -8,38 +8,35 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Bree+Serif&family=Montserrat:wght@400;600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/style-bootsrap.css">
     <title>La Vela Puerca - Discos</title>
 </head>
 <body>
     <header>
         <img src="../image/foto-header.png" alt="Foto de la banda" class="foto-header">
-    
-        <h1 class="header__title">La Vela Puerca</h1>
-        <hr>
-        <nav class="header__navbar">
-            <div>
-                <ul>
+        <h1 class="container-fluid header__title text-center fs-1 fw-bold">La Vela Puerca</h1>
+        <div class="container-fluid text-bg-dark p-3">
+            <nav class="row">
+                <ul class="col-12 col-sm-8 offset-sm-2 col-lg-6 offset-lg-3 d-flex justify-content-around">
                     <li> <a href="../index.html"> Inicio</a></li>
                     <li> <a href="./banda.html"> Banda</a></li>
-                    <li> <a href="./discos.html">Discos</a> </li> 
+                    <li> <a href="./pages/discos.html">Discos</a> </li>
                     <li> <a href="./conciertos.html">Conciertos</a> </li>
                     <li> <a href="./contacto.html">Contacto</a> </li>
                 </ul>
-            </div>
-        </nav>
-        <hr>
+            </nav>
+        </div>
     </header>
 
-
-    <section>
-        <h2>Discografía</h2>
-        <article class="card-cds discos grilla">
-            <img src="../image/deskarado.png" alt="Portada cd Deskarado" class="portada-cd">
-            <div class="card-cds__letras">
+    <h2 class="padding fs-2 text-center">Discografía</h2>
+    <section class="container-fluid text-center">
+        <article class="row justify-content-center">
+            <img src="../image/deskarado.png" alt="Portada cd Deskarado" class="portada-cd col-8">
+            <div class="text-center">
                 <h3 data-aos="zoom-in">Deskarado</h3>
-                <ol>
+                <ol class="letra-blanca">
                     <li data-aos="fade-up">Alta Magia</li>
                     <li data-aos="fade-down-right">El bandido salto de mata</li>
                     <li data-aos="fade-down">Común cangrejo</li>
@@ -57,8 +54,8 @@
             </div>
         </article>
 
-        <article class="card-cds discos grilla">
-            <img src="../image/de-bichos-y-flores.jpg" alt="Portada cd De bichos y flores" class="portada-cd">
+        <article class="row col-12  justify-content-center">
+            <img src="../image/de-bichos-y-flores.jpg" alt="Portada cd De bichos y flores" class="portada-cd col-8">
             <div class="card-cds__letras">
                 <h3 data-aos="zoom-in">De bichos y flores</h3>
                 <ol>
@@ -79,8 +76,8 @@
             </div>
         </article>
 
-        <article class="card-cds discos grilla">
-            <img src="../image/a-contraluz.jpg" alt="Portada cd A contraluz" class="portada-cd">
+        <article class="row col-12  justify-content-center">
+            <img src="../image/a-contraluz.jpg" alt="Portada cd A contraluz" class="portada-cd col-8">
             <div class="card-cds__letras">
                 <h3 data-aos="zoom-in">A contraluz</h3>
                 <ol>
@@ -102,11 +99,11 @@
             </div>
         </article>
 
-        <article class="card-cds discos grilla">
-            <img src="../image/piel-y-hueso.png" alt="Portada cd Piel y hueso" class="portada-cd">
+        <article class="row col-12  justify-content-center">
+            <img src="../image/piel-y-hueso.png" alt="Portada cd Piel y hueso" class="portada-cd col-8">
             <div class="card-cds__letras">
                 <h3 data-aos="zoom-in">Piel y Hueso</h3>
-                <ol>
+                <ol  class=" letra-blanca">
                     <li data-aos="fade-down-left">Sobre la sien</li>
                     <li data-aos="fade-right">Y asi vivir</li>
                     <li data-aos="fade-up-left">La teoría</li>
@@ -130,23 +127,27 @@
         </article>
     
     </section>
+
+
+
+    <footer class="p-3 mb-2 bg-dark text-white">
+        <section class="container-fluid text-center">
+        <h4>Seguinos en:</h4>
+            <div class="row">
+                <ul class="d-flex justify-content-around col-sm-8 offset-sm-2">
+                    <li class="instagram"> <i class="bi-instagram"></i> </li>
+                    <li class="facebook"> <i class="bi-facebook"></i> </li>
+                    <li class="spotify"> <i class="bi-spotify"></i> </li>
+                    <li class="youtube"> <i class="bi-youtube"></i> </li>
+                    <li class="twitter"> <i class="bi-twitter"></i> </li>
+                </ul>
+            </div>
+        </section>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"></script>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>
         AOS.init();
     </script>
-
-
-    <footer>
-        <h4>Seguinos en:</h4>
-        <div>
-            <ul class="ul i">
-                <li class="instagram"> <i class="bi-instagram"></i> </li>
-                <li class="facebook"> <i class="bi-facebook"></i> </li>
-                <li class="spotify"> <i class="bi-spotify"></i> </li>
-                <li class="youtube"> <i class="bi-youtube"></i> </li>
-                <li class="twitter"> <i class="bi-twitter"></i> </li>
-            </ul>
-        </div>
-    </footer>
 </body>
 </html>

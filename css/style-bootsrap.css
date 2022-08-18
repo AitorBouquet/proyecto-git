@@ -174,6 +174,18 @@ h4{
     color: white;
     margin-top: 6vh;
 }
+.portada-cd{
+    width: 60%;
+}
+.letra-blanca{
+    color: white;
+}
+
+
+
+
+
+
 @media(min-width:768px){
 p{
     font-size: 1.2rem;
@@ -200,6 +212,10 @@ a{
 footer{
     margin-top: 2vh;
 }
+.portada-cd{
+    width: 40%;
+}
+
 }
 
 
@@ -221,5 +237,8 @@ a{
 }
 .video-index{
     height: 300px;
+}
+.portada-cd{
+    width: 30%;
 }
 }
