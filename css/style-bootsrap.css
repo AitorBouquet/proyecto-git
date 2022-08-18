@@ -61,6 +61,7 @@ h3{
     font-size: 1.8rem;
     font-weight: bold;
     font-family: 'monserrat', serif;
+    margin-bottom: 4vh;
 }
 h4{
     color: white;
@@ -175,7 +176,7 @@ h4{
     margin-top: 6vh;
 }
 .portada-cd{
-    width: 60%;
+    width: 50%;
 }
 .letra-blanca{
     color: white;
@@ -186,7 +187,7 @@ h4{
 
 
 
-@media(min-width:768px){
+@media(min-width:992px){
 p{
     font-size: 1.2rem;
 }
@@ -213,7 +214,7 @@ footer{
     margin-top: 2vh;
 }
 .portada-cd{
-    width: 40%;
+    width: 30%;
 }
 
 }
@@ -239,6 +240,6 @@ a{
     height: 300px;
 }
 .portada-cd{
-    width: 30%;
+    width: 25%;
 }
 }
