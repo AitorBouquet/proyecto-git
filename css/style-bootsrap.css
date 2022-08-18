@@ -41,8 +41,8 @@ p{
 }
 .header__title{
 font-family: 'Bree Serif', serif;
-color: rgb(23, 22, 24);
-font-size: 3rem;
+color: rgb(255, 255, 255);
+font-size: 4rem;
 font-family: 'Bree Serif', serif;
 }
 footer li{
@@ -170,6 +170,10 @@ h4{
         color: aliceblue;
     }
 }
+.fecha-show{
+    color: white;
+    margin-top: 6vh;
+}
 @media(min-width:768px){
 p{
     font-size: 1.2rem;
@@ -192,6 +196,9 @@ a{
 .misemilla{
     margin-top:5vh;
     margin-bottom: 3vh;
+}
+footer{
+    margin-top: 2vh;
 }
 }
 

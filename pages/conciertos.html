@@ -8,40 +8,37 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Bree+Serif&family=Montserrat:wght@400;600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
-    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/style-bootsrap.css">
     <title>La Vela Puerca - Conciertos</title>
 </head>
 <body>
     <header>
         <img src="../image/foto-header.png" alt="Foto de la banda" class="foto-header">
-    
-        <h1 class="header__title">La Vela Puerca</h1>
-        <hr>
-        <nav class="header__navbar">
-            <div>
-                <ul>
+        <h1 class="container-fluid header__title text-center fs-1 fw-bold">La Vela Puerca</h1>
+        <div class="container-fluid text-bg-dark p-3">
+            <nav class="row">
+                <ul class="col-12 col-sm-8 offset-sm-2 col-lg-6 offset-lg-3 d-flex justify-content-around">
                     <li> <a href="../index.html"> Inicio</a></li>
                     <li> <a href="./banda.html"> Banda</a></li>
-                    <li> <a href="./discos.html"> Discos</a> </li> 
+                    <li> <a href="./discos.html">Discos</a> </li>
                     <li> <a href="./conciertos.html">Conciertos</a> </li>
                     <li> <a href="./contacto.html">Contacto</a> </li>
                 </ul>
-            </div>
-        </nav>
-        <hr>
+            </nav>
+        </div>
     </header>
-
-    <h2>Fechas de la gira 2022</h2>
-    <article>
+    <h2 class="text-center fs-2">Fechas de la gira 2022</h2>
+    <article class="container-fluid text-center">
         <div>
-            <p class="fecha-show">12/08</p>
+            <p class="fecha-show border border-dark border-1 rounded-pill text-bg-dark p-3 col-10 offset-1 col-md-8 offset-md-2 col-xl-6 offset-xl-3">12/08</p>
             <p class="ubicacion-show">CHL/ Santiago de Chile: Teatro Coliseo </p>
             <p class="info-show">NATANAEL COX 59, REGIÓN METROPOLITANA</p>
             <p class="info-show">INICIO 21:00 HS.</p>
             <button class="boton">PUNTOTICKET.COM</button>
         </div>
         <div class="shows ubicaciongrids">
-            <p class="fecha-show">19/08</p>
+            <p class="fecha-show border border-dark border-1 rounded-pill text-bg-dark p-3 col-10 offset-1 col-md-8 offset-md-2 col-xl-6 offset-xl-3">19/08</p>
             <p class="ubicacion-show">ARG/ Cordoba: Plaza de la música </p>
             <p class="info-show">INT. RAMÓN BAUTISTA MESTRE Y MENDOZA</p>
             <p class="info-show">INICIO 21:00 HS.</p>
@@ -50,7 +47,7 @@
         </div>
 
         <div class="shows ubicaciongrids">
-            <p class="fecha-show">27/08</p>
+            <p class="fecha-show border border-dark border-1 rounded-pill text-bg-dark p-3 col-10 offset-1 col-md-8 offset-md-2 col-xl-6 offset-xl-3">27/08</p>
             <p class="ubicacion-show">ARG/ Rosario: Metropolitano </p>
             <p class="info-show">JUNIN 501</p>
             <p class="info-show">INICIO 21:00 HS.</p>
@@ -58,7 +55,7 @@
         </div>
     
         <div class="shows ubicaciongrids">
-            <p class="fecha-show">10/09</p>
+            <p class="fecha-show border border-dark border-1 rounded-pill text-bg-dark p-3 col-10 offset-1 col-md-8 offset-md-2 col-xl-6 offset-xl-3">10/09</p>
             <p class="ubicacion-show">PRY/ Asunción: Festival Reciclarte</p>
             <p class="info-show"> COSTANERA DE ASUNCIÓN</p>
             <p class="info-show">INICIO 21 HS.</p>
@@ -66,7 +63,7 @@
         </div>
 
         <div class="shows ubicaciongrids">
-            <p class="fecha-show">06/10</p>
+            <p class="fecha-show border border-dark border-1 rounded-pill text-bg-dark p-3 col-10 offset-1 col-md-8 offset-md-2 col-xl-6 offset-xl-3">06/10</p>
             <p class="ubicacion-show">ARG/ Buenos Aires</p>
             <p class="info-show"> AV. EDUARDO MADERO 470</p>
             <p class="info-show">INICIO 21:00 HS.</p>
@@ -74,26 +71,28 @@
         </div>
 
         <div class="shows ubicaciongrids">
-            <p class="fecha-show">16/10</p>
+            <p class="fecha-show border border-dark border-1 rounded-pill text-bg-dark p-3 col-10 offset-1 col-md-8 offset-md-2 col-xl-6 offset-xl-3">16/10</p>
             <p class="ubicacion-show">MEX/ Texcoco: Festival Skatex</p>
             <p class="info-show"> RECINTO FERIAL DE TEXCOC</p>
             <p class="info-show">INICIO: 21 HS.</p>
-            <button class="boton">TICKETPLANET.COM.MX</button>
+            <button class="boton boton-margin">TICKETPLANET.COM.MX</button>
         </div>
     </article>
 
-
-    <footer>
+    <footer class="p-3 mb-2 bg-dark text-white">
+        <section class="container-fluid text-center">
         <h4>Seguinos en:</h4>
-        <div>
-            <ul class="ul i">
-                <li class="instagram"> <i class="bi-instagram"></i> </li>
-                <li class="facebook"> <i class="bi-facebook"></i> </li>
-                <li class="spotify"> <i class="bi-spotify"></i> </li>
-                <li class="youtube"> <i class="bi-youtube"></i> </li>
-                <li class="twitter"> <i class="bi-twitter"></i> </li>
-            </ul>
-        </div>
+            <div class="row">
+                <ul class="d-flex justify-content-around col-sm-8 offset-sm-2">
+                    <li class="instagram"> <i class="bi-instagram"></i> </li>
+                    <li class="facebook"> <i class="bi-facebook"></i> </li>
+                    <li class="spotify"> <i class="bi-spotify"></i> </li>
+                    <li class="youtube"> <i class="bi-youtube"></i> </li>
+                    <li class="twitter"> <i class="bi-twitter"></i> </li>
+                </ul>
+            </div>
+        </section>
     </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
