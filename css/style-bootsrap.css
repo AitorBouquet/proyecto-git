@@ -181,12 +181,6 @@ h4{
 .letra-blanca{
     color: white;
 }
-
-
-
-
-
-
 @media(min-width:992px){
 p{
     font-size: 1.2rem;
@@ -216,19 +210,7 @@ footer{
 .portada-cd{
     width: 30%;
 }
-
 }
-
-
-
-
-
-
-
-
-
-
-
 @media(min-width:1200px){
 p{
     font-size: 1.3;
