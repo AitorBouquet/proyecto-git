@@ -8,4 +8,92 @@ body {
   background: linear-gradient(180deg, rgb(73, 80, 83) 25%, rgb(203, 203, 227) 70%, rgb(32, 32, 34) 100%);
 }
 
+a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  font-family: "monserrat", serif;
+  font-size: 0.8rem;
+}
+a:hover {
+  color: red;
+}
+
+.foto-header {
+  width: 100%;
+}
+
+h1 {
+  font-family: "Bree Serif", serif;
+  color: white;
+  font-size: 4rem;
+}
+
+.animation-h1 {
+  animation-name: aparece-h1;
+  animation-duration: 3s;
+}
+
+@keyframes aparece-h1 {
+  0% {
+    transform: scale(0);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+h2 {
+  color: white;
+  font-size: 2.2rem;
+  font-family: "Bree Serif", serif;
+  margin-top: 4vh;
+  margin-bottom: 3vh;
+}
+
+h3 {
+  margin-top: 3vh;
+  color: black;
+  font-size: 1.8rem;
+  font-weight: bold;
+  font-family: "monserrat", serif;
+  margin-bottom: 4vh;
+}
+
+h4 {
+  color: white;
+  font-family: "monserrat", serif;
+}
+
+ul {
+  list-style: none;
+}
+
+ol {
+  list-style: none;
+  font-size: 1.3rem;
+  text-decoration: none;
+  margin: 0;
+  padding: 0;
+}
+
+p {
+  font-size: 1rem;
+  font-family: "monserrat", serif;
+  margin-top: 2vh;
+}
+
+.foto-index {
+  width: 70%;
+  margin-top: 2vh;
+  margin-bottom: 2vh;
+}
+
+.video-index {
+  width: 50%;
+}
+
+footer li {
+  font-size: 1.1rem;
+}
+
 /*# sourceMappingURL=style.css.map */
