@@ -71,3 +71,12 @@
         color: aliceblue;
     }
 }
+
+.portada-cd{
+    width: 50%;
+    @include desktop{
+        width: 30%;
+    } @include extra-large{
+        width: 25%;
+    }
+}

@@ -7,4 +7,10 @@ a{
     &:hover{
         color:$color-terciario;
     }
+    @include tablet{
+        font-size: 1rem;
+    }
+    @include desktop{
+        font-size: 1.3rem;
+    }
 }

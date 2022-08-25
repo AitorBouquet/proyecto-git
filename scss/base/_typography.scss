@@ -1,3 +1,9 @@
+h1{
+    font-family: $letra-secundaria;
+    color: $color-primario;
+    font-size: 4rem;
+}
+
 h2{
     color:$color-primario;
     font-size: 2.2rem;
@@ -36,6 +42,12 @@ p{
     font-size: 1rem;
     font-family: $letra-primaria;
     margin-top: 2vh;
+    @include tablet {
+        font-size: 1.2rem;
+    }
+    @include desktop{
+        font-size: 1.5rem;
+    }
 }
 
 .fecha-show{

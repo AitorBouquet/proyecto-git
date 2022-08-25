@@ -1,6 +1,16 @@
 .indicaciones-grid{
     font-size: 1rem;
     margin-top: 3vh;
+    margin-bottom: 1vh;
+    margin-top: 2.2vh;
+    @include desktop{
+        font-size: 1.3rem;
+    }
 }
 
-
+.misemilla{
+    @include desktop{
+        margin-top:5vh;
+        margin-bottom: 3vh;
+    }
+}

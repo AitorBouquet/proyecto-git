@@ -2,8 +2,30 @@
     width: 70%;
     margin-top: 2vh;
     margin-bottom: 2vh;
+    @include desktop{
+        width: 50%;
+        margin-top: 2vh;
+        margin-bottom: 2vh;
+    }
+    @include extra-large{
+        filter: grayscale(100%);
+        transition-duration: 3s;
+        &:hover{
+            filter: grayscale(0%);
+            scale: 1.2;
+        }
+    }
 }
 
 .video-index{
     width: 50%;
+    @include desktop{
+        margin-bottom: 3vh;
+    } @include extra-large {
+        filter: grayscale(100%);
+        transition-duration: 3s;
+    } 
+    &:hover{
+        filter: grayscale(0%);
+    }
 }
