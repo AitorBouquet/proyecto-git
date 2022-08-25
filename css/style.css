@@ -4,44 +4,6 @@
   box-sizing: border-box;
 }
 
-body {
-  background: linear-gradient(180deg, rgb(73, 80, 83) 25%, rgb(203, 203, 227) 70%, rgb(32, 32, 34) 100%);
-}
-
-a {
-  text-decoration: none;
-  color: white;
-  font-weight: bold;
-  font-family: "monserrat", serif;
-  font-size: 0.8rem;
-}
-a:hover {
-  color: red;
-}
-
-.foto-header {
-  width: 100%;
-}
-
-h1 {
-  font-family: "Bree Serif", serif;
-  color: white;
-  font-size: 4rem;
-}
-
-.animation-h1 {
-  animation-name: aparece-h1;
-  animation-duration: 3s;
-}
-
-@keyframes aparece-h1 {
-  0% {
-    transform: scale(0);
-  }
-  100% {
-    transform: scale(1);
-  }
-}
 h2 {
   color: white;
   font-size: 2.2rem;
@@ -82,6 +44,164 @@ p {
   margin-top: 2vh;
 }
 
+.fecha-show {
+  color: white;
+  margin-top: 6vh;
+}
+
+.letra-blanca {
+  color: white;
+}
+
+.animation-h1 {
+  animation-name: aparece-h1;
+  animation-duration: 3s;
+}
+
+@keyframes aparece-h1 {
+  0% {
+    transform: scale(0);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+@keyframes color-instagram {
+  0% {
+    color: aliceblue;
+  }
+  50% {
+    color: salmon;
+  }
+  100% {
+    color: aliceblue;
+  }
+}
+@keyframes color-facebook {
+  0% {
+    color: aliceblue;
+  }
+  50% {
+    color: rgb(60, 60, 206);
+  }
+  100% {
+    color: aliceblue;
+  }
+}
+@keyframes color-spotify {
+  0% {
+    color: aliceblue;
+  }
+  50% {
+    color: darkgreen;
+  }
+  100% {
+    color: aliceblue;
+  }
+}
+@keyframes color-youtube {
+  0% {
+    color: aliceblue;
+  }
+  50% {
+    color: firebrick;
+  }
+  100% {
+    color: aliceblue;
+  }
+}
+@keyframes color-twitter {
+  0% {
+    color: aliceblue;
+  }
+  50% {
+    color: rgb(24, 182, 182);
+  }
+  100% {
+    color: aliceblue;
+  }
+}
+a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  font-family: "monserrat", serif;
+  font-size: 0.8rem;
+}
+a:hover {
+  color: red;
+}
+
+.foto-header {
+  width: 100%;
+}
+
+h1 {
+  font-family: "Bree Serif", serif;
+  color: white;
+  font-size: 4rem;
+}
+
+footer li {
+  font-size: 1.1rem;
+}
+
+.instagram {
+  animation-name: color-instagram;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+}
+
+.facebook {
+  animation-name: color-facebook;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  animation-delay: 1s;
+}
+
+.spotify {
+  animation-name: color-spotify;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  animation-delay: 2s;
+}
+
+.youtube {
+  animation-name: color-youtube;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  animation-delay: 3s;
+}
+
+.twitter {
+  animation-name: color-twitter;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  animation-delay: 4s;
+}
+
+footer {
+  margin-top: 2vh;
+}
+
+body {
+  background: linear-gradient(180deg, rgb(73, 80, 83) 25%, rgb(203, 203, 227) 70%, rgb(32, 32, 34) 100%);
+}
+
+.padding {
+  margin-top: 3vh;
+  margin-bottom: 3vh;
+}
+
+.carousel {
+  padding-top: 5vh;
+}
+
+.indicaciones-grid {
+  font-size: 1rem;
+  margin-top: 3vh;
+}
+
 .foto-index {
   width: 70%;
   margin-top: 2vh;
@@ -90,10 +210,6 @@ p {
 
 .video-index {
   width: 50%;
-}
-
-footer li {
-  font-size: 1.1rem;
 }
 
 /*# sourceMappingURL=style.css.map */

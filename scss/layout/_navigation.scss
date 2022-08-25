@@ -1,0 +1,10 @@
+a{
+    text-decoration: none;
+    color:$color-primario;
+    font-weight: bold;
+    font-family: $letra-primaria;
+    font-size: 0.8rem;
+    &:hover{
+        color:$color-terciario;
+    }
+}

@@ -2,97 +2,14 @@
 
 @import "./base/reset";
 @import "./base/typography";
+@import "./base/animations";
 
+@import "./layout/navigation";
+@import "./layout/header";
+@import "./layout/footer";
+@import "./layout/body";
+@import "./components/carousel";
 
-
-body{
-    background: linear-gradient(180deg, rgba(73,80,83,1) 25%, rgba(203,203,227,1) 70%, rgba(32,32,34,1) 100%);
-} 
-
-a{
-    text-decoration: none;
-    color:$color-primario;
-    font-weight: bold;
-    font-family: $letra-primaria;
-    font-size: 0.8rem;
-    &:hover{
-        color:$color-terciario;
-    }
-}
-
-.foto-header{
-    width: 100%;
-}
-
-h1{
-    font-family: $letra-secundaria;
-    color: $color-primario;
-    font-size: 4rem;
-}
-.animation-h1{
-    animation-name: aparece-h1;
-    animation-duration: 3s;
-}
-@keyframes aparece-h1{
-    0%{
-        transform: scale(0);
-    }
-    100%{
-        transform: scale(1);
-    }
-}
-
-h2{
-    color:$color-primario;
-    font-size: 2.2rem;
-    font-family: $letra-secundaria;
-    margin-top: 4vh;
-    margin-bottom: 3vh;
-}
-
-h3{
-    margin-top: 3vh;
-    color:$color-secundario;
-    font-size: 1.8rem;
-    font-weight: bold;
-    font-family: $letra-primaria;
-    margin-bottom: 4vh;
-}
-
-h4{
-    color: $color-primario;
-    font-family: $letra-primaria;
-}
-
-ul {
-    list-style: none;
-}
-
-ol{
-    list-style: none;
-    font-size: 1.3rem;
-    text-decoration: none;
-    margin: 0;
-    padding: 0;
-}
-
-p{
-font-size: 1rem;
-    font-family: $letra-primaria;
-    margin-top: 2vh;
-}
-
-.foto-index{
-    width: 70%;
-    margin-top: 2vh;
-    margin-bottom: 2vh;
-}
-
-.video-index{
-    width: 50%;
-}
-
-footer li{
-    font-size: 1.1rem;
-}
+@import "./pages/contact";
+@import "./pages/home.scss";
 
