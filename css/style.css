@@ -84,57 +84,57 @@ p {
 }
 @keyframes color-instagram {
   0% {
-    color: aliceblue;
+    color: white;
   }
   50% {
     color: salmon;
   }
   100% {
-    color: aliceblue;
+    color: white;
   }
 }
 @keyframes color-facebook {
   0% {
-    color: aliceblue;
+    color: white;
   }
   50% {
     color: rgb(60, 60, 206);
   }
   100% {
-    color: aliceblue;
+    color: white;
   }
 }
 @keyframes color-spotify {
   0% {
-    color: aliceblue;
+    color: white;
   }
   50% {
     color: darkgreen;
   }
   100% {
-    color: aliceblue;
+    color: white;
   }
 }
 @keyframes color-youtube {
   0% {
-    color: aliceblue;
+    color: white;
   }
   50% {
     color: firebrick;
   }
   100% {
-    color: aliceblue;
+    color: white;
   }
 }
 @keyframes color-twitter {
   0% {
-    color: aliceblue;
+    color: white;
   }
   50% {
     color: rgb(24, 182, 182);
   }
   100% {
-    color: aliceblue;
+    color: white;
   }
 }
 .portada-cd {

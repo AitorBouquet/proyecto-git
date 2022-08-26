@@ -14,61 +14,61 @@
 
 @keyframes color-instagram{
     0% {
-        color: aliceblue;
+        color: $color-primario;
     }
     50%{
-        color: salmon;
+        color: $color-instagram;
     }
     100%{
-        color: aliceblue;
+        color: $color-primario;
     }
 }
 
 @keyframes color-facebook{
     0%{
-        color: aliceblue;
+        color: $color-primario;
     }
     50%{
-        color: rgb(60, 60, 206);
+        color: $color-facebook;
     }
     100%{
-        color: aliceblue;
+        color: $color-primario;
     }
 }
 
 @keyframes color-spotify{
     0%{
-        color: aliceblue;
+        color: $color-primario;
     }
     50%{
-        color: darkgreen;
+        color: $color-spotify;
     }
     100%{
-        color: aliceblue;
+        color:$color-primario;
     }
 }
 
 @keyframes color-youtube{
     0%{
-        color: aliceblue;
+        color: $color-primario;
     }
     50%{
-        color: firebrick;
+        color: $color-youtube;
     }
     100%{
-        color: aliceblue;
+        color: $color-primario;
     }
 }
 
 @keyframes color-twitter{
     0%{
-        color: aliceblue;
+        color: $color-primario;
     }
     50%{
-        color:rgb(24, 182, 182);
+        color: $color-twitter;
     }
     100%{
-        color: aliceblue;
+        color: $color-primario;
     }
 }
 
