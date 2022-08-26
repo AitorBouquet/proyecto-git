@@ -21,3 +21,12 @@ $color-letras:(
     color: $color-value;
 }
 }
+
+$color-nav-footer:(
+    fondo-negro: rgb(29, 29, 29)
+);
+@each $color-name, $color-value in $color-nav-footer{
+.bg-#{$color-name} {
+        background: $color-value;
+}
+}
