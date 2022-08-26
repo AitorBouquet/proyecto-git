@@ -2,37 +2,37 @@ footer li{
     font-size: 1.1rem;
 }
 
-.instagram{
-    animation-name: color-instagram;
+.icon{
     animation-duration: 5s;
     animation-iteration-count: infinite;
 }
 
+.instagram{
+    @extend .icon; 
+    animation-name: color-instagram;
+}
+
 .facebook{
+    @extend .icon;
     animation-name: color-facebook;
-    animation-duration: 5s;
-    animation-iteration-count: infinite;
     animation-delay: 1s;
 }
 
 .spotify{
+    @extend .icon;
     animation-name: color-spotify;
-    animation-duration: 5s;
-    animation-iteration-count: infinite;
     animation-delay: 2s;
 }
 
 .youtube{
+    @extend .icon;
     animation-name: color-youtube;
-    animation-duration: 5s;
-    animation-iteration-count: infinite;
     animation-delay: 3s;
 }
 
 .twitter{
+    @extend .icon;
     animation-name: color-twitter;
-    animation-duration: 5s;
-    animation-iteration-count: infinite;
     animation-delay: 4s;
 }
 

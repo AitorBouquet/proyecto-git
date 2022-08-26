@@ -180,37 +180,32 @@ footer li {
   font-size: 1.1rem;
 }
 
-.instagram {
-  animation-name: color-instagram;
+.icon, .twitter, .youtube, .spotify, .facebook, .instagram {
   animation-duration: 5s;
   animation-iteration-count: infinite;
 }
 
+.instagram {
+  animation-name: color-instagram;
+}
+
 .facebook {
   animation-name: color-facebook;
-  animation-duration: 5s;
-  animation-iteration-count: infinite;
   animation-delay: 1s;
 }
 
 .spotify {
   animation-name: color-spotify;
-  animation-duration: 5s;
-  animation-iteration-count: infinite;
   animation-delay: 2s;
 }
 
 .youtube {
   animation-name: color-youtube;
-  animation-duration: 5s;
-  animation-iteration-count: infinite;
   animation-delay: 3s;
 }
 
 .twitter {
   animation-name: color-twitter;
-  animation-duration: 5s;
-  animation-iteration-count: infinite;
   animation-delay: 4s;
 }
 
