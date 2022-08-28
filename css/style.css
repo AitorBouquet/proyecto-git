@@ -162,7 +162,12 @@ p {
 }
 @media (min-width: 992px) {
   .portada-cd {
-    width: 30%;
+    width: 50%;
+  }
+}
+@media (min-width: 768px) {
+  .portada-cd {
+    width: 40%;
   }
 }
 @media (min-width: 1200px) {
