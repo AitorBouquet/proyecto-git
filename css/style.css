@@ -158,16 +158,21 @@ p {
   }
 }
 .portada-cd {
-  width: 50%;
+  width: 60%;
 }
-@media (min-width: 992px) {
+@media (min-width: 576px) {
   .portada-cd {
-    width: 50%;
+    width: 45%;
   }
 }
 @media (min-width: 768px) {
   .portada-cd {
     width: 40%;
+  }
+}
+@media (min-width: 992px) {
+  .portada-cd {
+    width: 30%;
   }
 }
 @media (min-width: 1200px) {

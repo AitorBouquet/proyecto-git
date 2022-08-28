@@ -73,13 +73,14 @@
 }
 
 .portada-cd{
-    width: 50%;
-    @include desktop{
-        width: 50%;
-    } @include medium{
+    width: 60%;
+    @include tablet{
+        width: 45%;
+    } @include medium {
         width: 40%;
-    }
-    @include extra-large{
+    } @include desktop {
+        width: 30%;
+    } @include extra-large{
         width: 25%;
     }
 }
