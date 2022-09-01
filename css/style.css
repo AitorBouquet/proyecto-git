@@ -202,6 +202,13 @@ a:hover {
   }
 }
 
+button {
+  background-color: black;
+  font-family: "monserrat", serif;
+  padding: 1vh;
+  border-radius: 35%;
+}
+
 .foto-header {
   width: 100%;
 }
