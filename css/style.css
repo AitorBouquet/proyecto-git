@@ -286,6 +286,46 @@ footer {
   }
 }
 
+label {
+  font-family: "monserrat", serif;
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+@media (min-width: 992px) {
+  label {
+    font-size: 1.5rem;
+  }
+}
+
+input {
+  border-radius: 10px;
+  width: 70%;
+}
+@media (min-width: 576px) {
+  input {
+    width: 50%;
+  }
+}
+@media (min-width: 768px) {
+  input {
+    width: 40%;
+  }
+}
+@media (min-width: 992px) {
+  input {
+    width: 25%;
+  }
+}
+
+textarea {
+  border-radius: 10px;
+}
+
+.botoninput {
+  margin-top: 5vw;
+  width: 30%;
+}
+
 .foto-index {
   width: 70%;
   margin-top: 2vh;

@@ -14,3 +14,33 @@
         margin-bottom: 3vh;
     }
 }
+
+label{
+    font-family: $letra-primaria;
+    font-weight: bold;
+    font-size: 1.2rem;
+        @include desktop{
+            font-size: 1.5rem;
+        }
+}
+
+input{
+    border-radius: 10px;
+    width: 70%;
+    @include tablet{
+        width: 50%;
+    }@include medium{
+        width: 40%;
+    }@include desktop{
+        width: 25%;
+    }
+}
+
+textarea{
+    border-radius: 10px;
+}
+
+.botoninput{
+    margin-top: 5vw;
+    width: 30%;
+}
