@@ -3,7 +3,7 @@
 }
 
 .bg-de-bichos-y-flores {
-  color: rgb(165, 165, 105);
+  color: rgb(180, 180, 128);
 }
 
 .bg-a-contraluz {
@@ -11,7 +11,7 @@
 }
 
 .bg-piel-y-hueso {
-  color: rgb(255, 81, 0);
+  color: rgb(235, 72, 50);
 }
 
 .bg-fondo-negro {
@@ -326,6 +326,10 @@ textarea {
   width: 30%;
 }
 
+.boton {
+  font-size: 0.6rem;
+}
+
 .foto-index {
   width: 70%;
   margin-top: 2vh;
@@ -365,6 +369,15 @@ textarea {
 }
 .video-index:hover {
   filter: grayscale(0%);
+}
+
+.video-banda {
+  width: 50%;
+}
+@media (min-width: 992px) {
+  .video-banda {
+    margin-bottom: 3vh;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */

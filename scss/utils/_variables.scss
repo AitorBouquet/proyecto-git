@@ -12,9 +12,9 @@ $letra-secundaria: "Bree Serif", serif;
 
 $color-letras:(
     deskarado: rgb(209, 93, 72),
-    de-bichos-y-flores: rgb(165, 165, 105),
+    de-bichos-y-flores: rgb(180, 180, 128),
     a-contraluz: rgb(223, 223, 10),
-    piel-y-hueso: rgb(255, 81, 0)
+    piel-y-hueso: rgb(235, 72, 50)
     );
 @each $color-name, $color-value in $color-letras {
 .bg-#{$color-name} {

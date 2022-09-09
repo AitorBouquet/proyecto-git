@@ -29,3 +29,10 @@
         filter: grayscale(0%);
     }
 }
+
+.video-banda{
+    width: 50%;
+    @include desktop{
+        margin-bottom: 3vh;
+}
+}
